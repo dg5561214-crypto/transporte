@@ -19,7 +19,7 @@ class perro(animal):
         self.raza=raza
 
     def ladrar(self):
-        print("el perro esta ladrando")
+        print("el perro esta ladrando",self.raza)
 
 class gato(animal):
     def __init__(self,nombre,edad,peso,color):
